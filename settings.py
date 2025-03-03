@@ -212,8 +212,8 @@ midi_mapping = {
     # "overdub": CC(12, ABSOLUTE),
     "session_record": CC(12, ABSOLUTE),
     "delete_selected_clip": CC(13, ABSOLUTE),
-    "prev_scene": CC(15, ABSOLUTE),
-    "next_scene": CC(16, ABSOLUTE),
+    "prev_scene": CC(16, ABSOLUTE),
+    "next_scene": CC(15, ABSOLUTE),
     #
     # Mixer
     #
@@ -221,8 +221,8 @@ midi_mapping = {
     "mute": CC(19, ABSOLUTE),
     "arm": CC(20, ABSOLUTE),
     "toggle_track_fold": CC(21, ABSOLUTE),
-    "first_track": CC(23, ABSOLUTE),
-    "last_track": CC(24, ABSOLUTE),
+    "first_track": CC(24, ABSOLUTE),
+    "last_track": CC(23, ABSOLUTE),
     "volume": CC(58, RELATIVE_TWO_COMPLIMENT, 0),
     "pan": CC(59, RELATIVE_TWO_COMPLIMENT, 0),
     "sends": (
@@ -242,9 +242,9 @@ midi_mapping = {
     "device_on_off": CC(36, ABSOLUTE),
     "collapse_device": CC(37, ABSOLUTE),
     "prev_device": CC(38, ABSOLUTE),
-    "next_device_bank": CC(40, ABSOLUTE),
+    "next_device_bank": CC(39, ABSOLUTE),
     "next_device": CC(41, ABSOLUTE),
-    "prev_device_bank": CC(39, ABSOLUTE),
+    "prev_device_bank": CC(40, ABSOLUTE),
     "device_params": (
         CC(70, RELATIVE_TWO_COMPLIMENT, 0),
         CC(71, RELATIVE_TWO_COMPLIMENT, 0),
