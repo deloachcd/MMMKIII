@@ -236,7 +236,7 @@ midi_mapping = {
     #
     # Device
     #
-    "toggle_lock_to_device": CC(34, ABSOLUTE),
+    "toggle_detail_clip": CC(34, ABSOLUTE),
     "toggle_detail_device": CC(35, ABSOLUTE),
     # "select_instrument": CC(35, ABSOLUTE),
     "device_on_off": CC(36, ABSOLUTE),
