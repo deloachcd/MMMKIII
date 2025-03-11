@@ -196,7 +196,7 @@ midi_mapping = {
     #
     # Arrangement
     #
-    "play_pause": CC(2, ABSOLUTE),
+    "play_stop": CC(2, ABSOLUTE),
     "stop_playing": CC(3, ABSOLUTE),
     "record": CC(4, ABSOLUTE),
     "loop": CC(5, ABSOLUTE),
