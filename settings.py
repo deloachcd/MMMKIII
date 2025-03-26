@@ -225,14 +225,14 @@ midi_mapping = {
     "last_track": CC(23, ABSOLUTE),
     "volume": CC(58, RELATIVE_TWO_COMPLIMENT, 0),
     "pan": CC(59, RELATIVE_TWO_COMPLIMENT, 0),
+    "cue_volume": CC(60, RELATIVE_TWO_COMPLIMENT, 0),
+    "master_volume": CC(61, RELATIVE_TWO_COMPLIMENT, 0),
     "sends": (
-        CC(60, RELATIVE_TWO_COMPLIMENT, 0),
-        CC(61, RELATIVE_TWO_COMPLIMENT, 0),
         CC(62, RELATIVE_TWO_COMPLIMENT, 0),
         CC(63, RELATIVE_TWO_COMPLIMENT, 0),
+        CC(64, RELATIVE_TWO_COMPLIMENT, 0),
+        CC(65, RELATIVE_TWO_COMPLIMENT, 0),
     ),
-    "cue_volume": CC(64, RELATIVE_TWO_COMPLIMENT, 0),
-    "master_volume": CC(65, RELATIVE_TWO_COMPLIMENT, 0),
     #
     # Device
     #
