@@ -48,4 +48,7 @@ NB: If you want to make this work for the mk2, have a look at this [issue](https
 	[this issue](https://github.com/SlyBouhafs/MMMKIII/issues/6) for the original script
 1. "Play/pause" in Arrangement view has been changed to "play/stop", so that playback
 	always resumes from the playhead
+1. Mixer pad controls no longer have "first track" and "last track" as actions - instead,
+	"previous track" and "next track" are repeated for both up/down and left/right, with
+	the intention of making navigation more intuitive in both Session and Arrangement view
 1. A bug where two mixer knobs send to the same return track has been fixed
