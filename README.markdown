@@ -27,14 +27,14 @@ First, clone the repository.
 
 1.	Make sure that Live isn't running.
 1.	In the `assets/presets/` folder, there are 4 programs, use the MPK Mini MK3 Program Editor to load each one.
-1.	Add **MMMKIII** to Ableton Live's MIDI Remote Scripts folder.
+1.	Add **mk3** to Ableton Live's MIDI Remote Scripts folder.
 
 	[See Ableton’s help page regarding installing third-party remote scripts.](https://help.ableton.com/hc/en-us/articles/209072009-Installing-third-party-remote-scripts)
 
 1.	Start Live.
-1.	Enable **MMMKIII** as a Control Surface in Live
+1.	Enable **mk3** as a Control Surface in Live
 
-	In Live’s Preferences go to the **MIDI Sync** tab and select **MMMKIII** in the dropdown list of available Control Surfaces. For the MIDI Input and Output, select your controller’s MIDI-port.
+	In Live’s Preferences go to the **MIDI Sync** tab and select **mk3** in the dropdown list of available Control Surfaces. For the MIDI Input and Output, select your controller’s MIDI-port.
 	
 NB: If you want to make this work for the mk2, have a look at this [issue](https://github.com/SlyBouhafs/MMMKIII/issues/5)
 
